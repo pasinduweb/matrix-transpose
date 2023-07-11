@@ -26,8 +26,8 @@ for (let row of transposedMatrix) {
   console.log(row.join(' '));
 }
 
-const helloBranch = () => {
-  console.log("TEST");
+const remoteBranch = () => {
+  console.log("Branch Created on Remote Server");
 };
 
-helloBranch();
+remoteBranch();
