@@ -27,5 +27,7 @@ for (let row of transposedMatrix) {
 }
 
 const localBranch = () => {
-  console.log("The Branch Created on Local Machine is Working");
+  console.log("Branch Created on Local Machine");
 };
+
+localBranch();
