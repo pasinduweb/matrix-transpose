@@ -26,9 +26,13 @@ for (let row of transposedMatrix) {
   console.log(row.join(' '));
 }
 
+const localBranch = () => {
+  console.log("Branch Created on Local Machine");
+};
+
 const remoteBranch = () => {
   console.log("Branch Created on Remote Server");
 };
 
+localBranch();
 remoteBranch();
-// remove this comment later
