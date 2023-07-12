@@ -30,6 +30,9 @@ const localBranch = () => {
   console.log("Branch Created on Local Machine");
 };
 
+const remoteBranch = () => {
+  console.log("Branch Created on Remote Server");
+};
+
 localBranch();
-
-
+remoteBranch();
