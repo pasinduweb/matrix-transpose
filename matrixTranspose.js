@@ -25,23 +25,11 @@ const transposedMatrix = transposeMatrix(matrix);
 for (let row of transposedMatrix) {
   console.log(row.join(' '));
 }
-// --- ALGORITHM END ---
 
-
-// --- Below Things for Testing Purposes ---
-
-// a function created to check git github branch and merging
-// comes from 'localBranch-function' branch
 const localBranch = () => {
   console.log("Branch Created on Local Machine");
 };
 
-// a function created to check git github branch and merging
-// comes from 'remoteBranch-function' branch
-const remoteBranch = () => {
-  console.log("Branch Created on Remote Server");
-};
-
 localBranch();
-remoteBranch();
+
 
